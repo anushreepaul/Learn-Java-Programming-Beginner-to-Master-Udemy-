@@ -1,4 +1,4 @@
-
+//program
 import java.util.Scanner;
 
 public class Reverse_Number_and_Array 
