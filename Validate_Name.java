@@ -1,4 +1,4 @@
-package Methods;
+
 import java.util.Scanner;
 
 public class Validate_Name 
