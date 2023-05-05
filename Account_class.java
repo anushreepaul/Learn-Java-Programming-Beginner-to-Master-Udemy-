@@ -5,20 +5,32 @@ class Account
     public String name ;
     public double balance ;
 
-    public Account(String name , int acc_no)
+    public double setBalance(int amount)
     {
-        this.name = name ;
-        this.acc_no= acc_no ;
+        if (amount > 0 )
+        {
+            balance = balance + amount ;
+            return balance ;
+        
+        }
+        else 
+        {
+            balance = balance - amount ;
+            return balance;
+        }
     }
 
     public double deposit (int amount)
     {
-        return  balance + amount ;
+        balance = setBalance(amount) ;
+        return balance ;   
     }
 
     public double withdraw (int amount)
     {
-        return balance - amount ;
+        balance = balance - amount ;
+        return balance ;
+       
     }
 
     public String getName ()
@@ -30,15 +42,27 @@ class Account
     {
         return acc_no ;
     }
+
+    public double display()
+    {
+        return balance ;
+    }
 }
 public class Account_class 
 {
 
+    /**
+     * @param args
+     */
     public static void main (String[] args)
     {
         System.out.println("Welcome to SBI !");
         System.out.println();
-        Account ac = new Account("Anushree", 12003789) ;
+        Account ac = new Account() ;
+        ac.acc_no = 397131275 ;
+        ac.name = "Anushree Paul ";
+        ac.balance = 2000 ;
+        
 
         Scanner sc = new Scanner (System.in) ;
 
@@ -51,6 +75,8 @@ public class Account_class
         System.out.println("1. Deposit");
         System.out.println();
         System.out.println("2. Withdraw ");
+        System.out.println();
+        System.out.println("3: View Balance ");
         System.out.print("Enter the option : ");
         int option = sc.nextInt() ;
         switch(option)
@@ -63,6 +89,9 @@ public class Account_class
             case 2 :    System.out.print("Enter the amount you want to withdraw : ");
                         int amount_2 = sc.nextInt() ;
                         System.out.print("The amount available in your account is : "+ac.withdraw(amount_2));
+                        System.exit(0);
+            
+            case 3 :    System.out.println("Balance : "+ac.display());
                         System.exit(0);
 
 
