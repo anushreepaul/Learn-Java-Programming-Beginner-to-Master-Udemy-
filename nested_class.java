@@ -15,7 +15,10 @@ class Outer
     void displayouter()
     {
         Inner i = new Inner() ;
+        //accessing methods of inner class from outer class 's method by creating inner class object
         i.displayinner();
+
+        //accessing data members of inner class from outer class 
         System.out.println(i.y);
     }
 }
