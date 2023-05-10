@@ -1,0 +1,91 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Account_class",
+            "request": "launch",
+            "mainClass": "Account_class",
+            "projectName": "Learn-Java-Programming-Beginner-to-Master-Udemy-_57101d89"
+        },
+        {
+            "type": "java",
+            "name": "Circle_class",
+            "request": "launch",
+            "mainClass": "Circle_class",
+            "projectName": "Learn-Java-Programming-Beginner-to-Master-Udemy-_57101d89"
+        },
+        {
+            "type": "java",
+            "name": "Cyclinder_class",
+            "request": "launch",
+            "mainClass": "Cyclinder_class",
+            "projectName": "Learn-Java-Programming-Beginner-to-Master-Udemy-_57101d89"
+        },
+        {
+            "type": "java",
+            "name": "Method_Overloading",
+            "request": "launch",
+            "mainClass": "Method_Overloading",
+            "projectName": "Learn-Java-Programming-Beginner-to-Master-Udemy-_57101d89"
+        },
+        {
+            "type": "java",
+            "name": "Printing_n_numbers_Reverse_Order",
+            "request": "launch",
+            "mainClass": "Printing_n_numbers_Reverse_Order",
+            "projectName": "Learn-Java-Programming-Beginner-to-Master-Udemy-_57101d89"
+        },
+        {
+            "type": "java",
+            "name": "Rectangle_class",
+            "request": "launch",
+            "mainClass": "Rectangle_class",
+            "projectName": "Learn-Java-Programming-Beginner-to-Master-Udemy-_57101d89"
+        },
+        {
+            "type": "java",
+            "name": "Reverse_Number_and_Array",
+            "request": "launch",
+            "mainClass": "Reverse_Number_and_Array",
+            "projectName": "Learn-Java-Programming-Beginner-to-Master-Udemy-_57101d89"
+        },
+        {
+            "type": "java",
+            "name": "Validate_Name",
+            "request": "launch",
+            "mainClass": "Validate_Name",
+            "projectName": "Learn-Java-Programming-Beginner-to-Master-Udemy-_57101d89"
+        },
+        {
+            "type": "java",
+            "name": "pattern_printing",
+            "request": "launch",
+            "mainClass": "pattern_printing",
+            "projectName": "Learn-Java-Programming-Beginner-to-Master-Udemy-_57101d89"
+        },
+        {
+            "type": "java",
+            "name": "star_pattern_2",
+            "request": "launch",
+            "mainClass": "star_pattern_2",
+            "projectName": "Learn-Java-Programming-Beginner-to-Master-Udemy-_57101d89"
+        },
+        {
+            "type": "java",
+            "name": "star_pattern_3",
+            "request": "launch",
+            "mainClass": "star_pattern_3",
+            "projectName": "Learn-Java-Programming-Beginner-to-Master-Udemy-_57101d89"
+        }
+    ]
+}
