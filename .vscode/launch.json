@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AnonymousInnerClass",
+            "request": "launch",
+            "mainClass": "AnonymousInnerClass",
+            "projectName": "Learn-Java-Programming-Beginner-to-Master-Udemy-_57101d89"
+        },
+        {
+            "type": "java",
+            "name": "anonymous_inner_classs",
+            "request": "launch",
+            "mainClass": "anonymous_inner_classs",
+            "projectName": "Learn-Java-Programming-Beginner-to-Master-Udemy-_57101d89"
+        },
+        {
+            "type": "java",
             "name": "Outer",
             "request": "launch",
             "mainClass": "Outer",
