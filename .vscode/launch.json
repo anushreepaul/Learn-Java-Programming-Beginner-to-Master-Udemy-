@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LocalInner",
+            "request": "launch",
+            "mainClass": "LocalInner",
+            "projectName": "Learn-Java-Programming-Beginner-to-Master-Udemy-_57101d89"
+        },
+        {
+            "type": "java",
             "name": "AnonymousInnerClass",
             "request": "launch",
             "mainClass": "AnonymousInnerClass",
