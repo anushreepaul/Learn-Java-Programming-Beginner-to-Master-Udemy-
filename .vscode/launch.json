@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "nested_class",
+            "request": "launch",
+            "mainClass": "nested_class",
+            "projectName": "Learn-Java-Programming-Beginner-to-Master-Udemy-_57101d89"
+        },
+        {
+            "type": "java",
             "name": "parameterised_constructor",
             "request": "launch",
             "mainClass": "parameterised_constructor",
