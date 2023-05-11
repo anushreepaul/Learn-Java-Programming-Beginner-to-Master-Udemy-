@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "nested_try_catch_block",
+            "request": "launch",
+            "mainClass": "nested_try_catch_block",
+            "projectName": "Learn-Java-Programming-Beginner-to-Master-Udemy-_57101d89"
+        },
+        {
+            "type": "java",
             "name": "multiple_catch_block",
             "request": "launch",
             "mainClass": "multiple_catch_block",
