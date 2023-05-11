@@ -12,7 +12,7 @@ public class throw_throws_exception
 
     static void fun1() throws Exception
     {
-        System.out.println(area(-10,2)) ;
+        System.out.println(area(10,2)) ;
     }
 
     static void fun2 () throws Exception
