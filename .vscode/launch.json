@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Runnable_interface",
+            "request": "launch",
+            "mainClass": "Runnable_interface",
+            "projectName": "Learn-Java-Programming-Beginner-to-Master-Udemy-_57101d89"
+        },
+        {
+            "type": "java",
+            "name": "thread_class",
+            "request": "launch",
+            "mainClass": "thread_class",
+            "projectName": "Learn-Java-Programming-Beginner-to-Master-Udemy-_57101d89"
+        },
+        {
+            "type": "java",
             "name": "throw_throws_exception",
             "request": "launch",
             "mainClass": "throw_throws_exception",
