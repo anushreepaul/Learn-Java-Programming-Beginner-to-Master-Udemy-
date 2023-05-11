@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "multiple_catch_block",
+            "request": "launch",
+            "mainClass": "multiple_catch_block",
+            "projectName": "Learn-Java-Programming-Beginner-to-Master-Udemy-_57101d89"
+        },
+        {
+            "type": "java",
+            "name": "exception_handling_example",
+            "request": "launch",
+            "mainClass": "exception_handling_example",
+            "projectName": "Learn-Java-Programming-Beginner-to-Master-Udemy-_57101d89"
+        },
+        {
+            "type": "java",
             "name": "singleton",
             "request": "launch",
             "mainClass": "singleton",
