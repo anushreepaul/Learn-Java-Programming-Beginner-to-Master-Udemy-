@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "bounded_generic_class",
+            "request": "launch",
+            "mainClass": "bounded_generic_class",
+            "projectName": "Learn-Java-Programming-Beginner-to-Master-Udemy-_57101d89"
+        },
+        {
+            "type": "java",
             "name": "extended_generic_class",
             "request": "launch",
             "mainClass": "extended_generic_class",
