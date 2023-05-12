@@ -1,3 +1,5 @@
+@SurpressWarning("unchecked")
+
 class Generic_Array <T>
 {
     T A[] = (T[]) new Object [3] ;

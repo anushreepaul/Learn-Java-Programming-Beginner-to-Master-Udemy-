@@ -1,3 +1,4 @@
+@SurpressWarning("unchecked")
 public class generic_demo<T> {
     /**
      *
