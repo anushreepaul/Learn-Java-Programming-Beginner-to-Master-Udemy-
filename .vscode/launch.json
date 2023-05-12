@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "generic_array_class",
+            "request": "launch",
+            "mainClass": "generic_array_class",
+            "projectName": "Learn-Java-Programming-Beginner-to-Master-Udemy-_57101d89"
+        },
+        {
+            "type": "java",
+            "name": "generic_class",
+            "request": "launch",
+            "mainClass": "generic_class",
+            "projectName": "Learn-Java-Programming-Beginner-to-Master-Udemy-_57101d89"
+        },
+        {
+            "type": "java",
+            "name": "generic_demo",
+            "request": "launch",
+            "mainClass": "generic_demo",
+            "projectName": "Learn-Java-Programming-Beginner-to-Master-Udemy-_57101d89"
+        },
+        {
+            "type": "java",
             "name": "ATM_Machine",
             "request": "launch",
             "mainClass": "ATM_Machine",
