@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ATM_Machine",
+            "request": "launch",
+            "mainClass": "ATM_Machine",
+            "projectName": "Learn-Java-Programming-Beginner-to-Master-Udemy-_57101d89"
+        },
+        {
+            "type": "java",
             "name": "synchronized_method",
             "request": "launch",
             "mainClass": "synchronized_method",
