@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "inter_thread_communication",
+            "request": "launch",
+            "mainClass": "inter_thread_communication",
+            "projectName": "Learn-Java-Programming-Beginner-to-Master-Udemy-_57101d89"
+        },
+        {
+            "type": "java",
+            "name": "join_thread",
+            "request": "launch",
+            "mainClass": "join_thread",
+            "projectName": "Learn-Java-Programming-Beginner-to-Master-Udemy-_57101d89"
+        },
+        {
+            "type": "java",
             "name": "daemon_thread",
             "request": "launch",
             "mainClass": "daemon_thread",
