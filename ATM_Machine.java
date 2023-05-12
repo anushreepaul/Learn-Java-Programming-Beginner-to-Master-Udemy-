@@ -3,11 +3,27 @@ class ATM
     synchronized public void check_balance (String name)
     {
         System.out.println(name+" is checking his/her balance !");
+        try{
+            Thread.sleep(100);
+       }
+
+       catch (Exception e )
+       {
+           System.out.println(e);
+       }
     }
 
     synchronized public void withdraw_balance(String name , int amount)
     {
         System.out.println(name+" is withdrawing his balance and the amount is : "+amount);
+        try{
+             Thread.sleep(100);
+        }
+
+        catch (Exception e )
+        {
+            System.out.println(e);
+        }
     }
 }
 
