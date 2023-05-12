@@ -1,74 +1,72 @@
 class Mydata 
 {
     int value = 0 ;
-  
     boolean flag = false ;
 
-    synchronized void set(int v) 
+    synchronized void set (int v)
     {
         while (flag != true)
         {
-
-            try 
-            {
-                wait();
-            } 
-
-            catch (InterruptedException e) 
-            { }
-
-        }     
-        value = v ;
-        flag = false ;
-        notify();
-    }
-
-    synchronized int get()
-    {
-       
-        int x = 0 ;
-        
-        while (flag != false)
-        {
-            try 
+            try
             {
                 wait() ;
+
             }
 
-            catch(Exception e)
+            catch (Exception e)
             {}
+        }
+        
+         value = v ;
+         flag = false ;
+         notify();
+
+    }
+
+    synchronized int get ()
+    {
+        int x = 0 ;
+        while (flag != false)
+        {
+            try
+            {
+                wait();
+
+            }
+            catch(Exception e)
+            {
+
+            }
             
         }
         value = x ;
-        flag = true ;
+        flag = true;
         notify();
+
         return x ;
-
-
     }
-
 }
 
 class Producer extends Thread 
 {
-    Mydata data;
-   
+    Mydata data ;
+    
     public Producer (Mydata d)
     {
-        
-       data = d ;
+        data = d ;
     }
 
-    public void run()
+    public void run ()
     {
         int count = 1 ;
+
         while (true)
         {
-           data.set(count);
+            data.set(count);
             System.out.println("Producer : "+count);
             count++ ;
-
         }
+
     }
 }
 
@@ -76,32 +74,29 @@ class Consumer extends Thread
 {
     Mydata data ;
 
-    public Consumer (Mydata d )
+    public Consumer (Mydata d)
     {
         data = d ;
     }
 
     public void run ()
     {
-        while(true)
+        while (true)
         {
             System.out.println("Consumer : "+data.get());
         }
     }
 }
+
 public class inter_thread_communication 
 {
     public static void main (String[] args)
     {
         Mydata data = new Mydata() ;
-       
-        Producer p = new Producer(data);
+        Producer p = new Producer(data) ;
         Consumer c = new Consumer(data) ;
 
-        p.start();
+        p.start(); 
         c.start();
     }
-
-
-    
 }
