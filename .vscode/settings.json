@@ -1,3 +1,17 @@
 {
-    "java.debug.settings.onBuildFailureProceed": true
+    "java.debug.settings.onBuildFailureProceed": true,
+    "sqltools.useNodeRuntime": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "localhost",
+            "database": "C:\\MyJava\\sqlite-jdbc-3.40.0.0.jar",
+            "group": "sqlite"
+        }
+    ],
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\Dell\\Downloads\\SqliteJdbcDriver\\sqlite-jdbc-3.40.0.0.jar"
+    ]
 }
