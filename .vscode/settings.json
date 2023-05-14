@@ -1,7 +1,14 @@
 {
     "java.debug.settings.onBuildFailureProceed": true,
     "sqltools.useNodeRuntime": true,
-    "sqltools.connections": [],
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "student_database",
+            "database": "C:\\sqlite\\Student_Detail.db"
+        }
+    ],
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
         "c:\\Users\\Dell\\Downloads\\SqliteJdbcDriver\\sqlite-jdbc-3.40.0.0.jar"
