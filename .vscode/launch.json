@@ -6,6 +6,90 @@
     "configurations": [
         {
             "type": "java",
+            "name": "binary_Search",
+            "request": "launch",
+            "mainClass": "binary_Search",
+            "projectName": "Learn-Java-Programming-Beginner-to-Master-Udemy-_57101d89"
+        },
+        {
+            "type": "java",
+            "name": "reverse_array",
+            "request": "launch",
+            "mainClass": "reverse_array",
+            "projectName": "Learn-Java-Programming-Beginner-to-Master-Udemy-_57101d89"
+        },
+        {
+            "type": "java",
+            "name": "armstrong",
+            "request": "launch",
+            "mainClass": "armstrong",
+            "projectName": "Learn-Java-Programming-Beginner-to-Master-Udemy-_57101d89"
+        },
+        {
+            "type": "java",
+            "name": "Palindrome_Number",
+            "request": "launch",
+            "mainClass": "Palindrome_Number",
+            "projectName": "Learn-Java-Programming-Beginner-to-Master-Udemy-_57101d89"
+        },
+        {
+            "type": "java",
+            "name": "prime_number",
+            "request": "launch",
+            "mainClass": "prime_number",
+            "projectName": "Learn-Java-Programming-Beginner-to-Master-Udemy-_57101d89"
+        },
+        {
+            "type": "java",
+            "name": "diamond_pattern_print",
+            "request": "launch",
+            "mainClass": "diamond_pattern_print",
+            "projectName": "Learn-Java-Programming-Beginner-to-Master-Udemy-_57101d89"
+        },
+        {
+            "type": "java",
+            "name": "equilateral_triangle",
+            "request": "launch",
+            "mainClass": "equilateral_triangle",
+            "projectName": "Learn-Java-Programming-Beginner-to-Master-Udemy-_57101d89"
+        },
+        {
+            "type": "java",
+            "name": "Print_Pattern_5",
+            "request": "launch",
+            "mainClass": "Print_Pattern_5",
+            "projectName": "Learn-Java-Programming-Beginner-to-Master-Udemy-_57101d89"
+        },
+        {
+            "type": "java",
+            "name": "Print_Pattern_4",
+            "request": "launch",
+            "mainClass": "Print_Pattern_4",
+            "projectName": "Learn-Java-Programming-Beginner-to-Master-Udemy-_57101d89"
+        },
+        {
+            "type": "java",
+            "name": "Print_Pattern_3",
+            "request": "launch",
+            "mainClass": "Print_Pattern_3",
+            "projectName": "Learn-Java-Programming-Beginner-to-Master-Udemy-_57101d89"
+        },
+        {
+            "type": "java",
+            "name": "Print_Pattern_2",
+            "request": "launch",
+            "mainClass": "Print_Pattern_2",
+            "projectName": "Learn-Java-Programming-Beginner-to-Master-Udemy-_57101d89"
+        },
+        {
+            "type": "java",
+            "name": "Print_Pattern_1",
+            "request": "launch",
+            "mainClass": "Print_Pattern_1",
+            "projectName": "Learn-Java-Programming-Beginner-to-Master-Udemy-_57101d89"
+        },
+        {
+            "type": "java",
             "name": "user_details2",
             "request": "launch",
             "mainClass": "user_details2",
