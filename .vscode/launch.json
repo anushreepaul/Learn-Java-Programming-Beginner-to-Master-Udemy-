@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ArrayList_example_2",
+            "request": "launch",
+            "mainClass": "ArrayList_example_2",
+            "projectName": "Learn-Java-Programming-Beginner-to-Master-Udemy-_57101d89"
+        },
+        {
+            "type": "java",
+            "name": "ArrayListExample",
+            "request": "launch",
+            "mainClass": "ArrayListExample",
+            "projectName": "Learn-Java-Programming-Beginner-to-Master-Udemy-_57101d89"
+        },
+        {
+            "type": "java",
+            "name": "string_anagram",
+            "request": "launch",
+            "mainClass": "string_anagram",
+            "projectName": "Learn-Java-Programming-Beginner-to-Master-Udemy-_57101d89"
+        },
+        {
+            "type": "java",
+            "name": "arraylist_example",
+            "request": "launch",
+            "mainClass": "arraylist_example",
+            "projectName": "Learn-Java-Programming-Beginner-to-Master-Udemy-_57101d89"
+        },
+        {
+            "type": "java",
+            "name": "find_duplicate_characters_in_string",
+            "request": "launch",
+            "mainClass": "find_duplicate_characters_in_string",
+            "projectName": "Learn-Java-Programming-Beginner-to-Master-Udemy-_57101d89"
+        },
+        {
+            "type": "java",
             "name": "binary_Search",
             "request": "launch",
             "mainClass": "binary_Search",
